@@ -1,51 +1,51 @@
-/* Reset some default styles to ensure consistent rendering across browsers */
+/* Reset default styles to ensure consistent rendering */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Set the background color and font styles for the entire document */
+/* Set background color and font styles */
 body {
   font-family: Arial, sans-serif;
   background-color: #f9f9f9;
 }
 
-/* Add some padding and center the CV content */
-.container {
+/* Center content and add padding */
+.content-container {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
 }
 
-/* Style the headings */
-h1 {
+/* Heading styles */
+.heading-primary {
   font-size: 32px;
   margin-bottom: 20px;
 }
 
-h2 {
+.heading-secondary {
   font-size: 24px;
   margin-bottom: 15px;
 }
 
-/* Style the paragraphs */
-p {
+/* Paragraph styles */
+.paragraph {
   line-height: 1.6;
   margin-bottom: 10px;
 }
 
-/* Style the links */
-a {
+/* Link styles */
+.link {
   color: #007bff;
   text-decoration: none;
 }
 
-a:hover {
+.link:hover {
   text-decoration: underline;
 }
 
-/* Add a nice background animation */
+/* Background animation */
 body {
   background: linear-gradient(45deg, #ccedff, #f2f2f2, #ccedff);
   background-size: 400% 400%;
