@@ -1,65 +1,56 @@
-/* Reset default styles to ensure consistent rendering */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Set background color and font styles */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-/* Center content and add padding */
-.content-container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
 }
 
-/* Heading styles */
-.heading-primary {
-  font-size: 32px;
-  margin-bottom: 20px;
+header h1 {
+    margin: 0;
 }
 
-.heading-secondary {
-  font-size: 24px;
-  margin-bottom: 15px;
+nav ul {
+    list-style: none;
+    padding: 0;
 }
 
-/* Paragraph styles */
-.paragraph {
-  line-height: 1.6;
-  margin-bottom: 10px;
+nav ul li {
+    display: inline;
+    margin: 0 10px;
 }
 
-/* Link styles */
-.link {
-  color: #007bff;
-  text-decoration: none;
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
 }
 
-.link:hover {
-  text-decoration: underline;
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Background animation */
-body {
-  background: linear-gradient(45deg, #ccedff, #f2f2f2, #ccedff);
-  background-size: 400% 400%;
-  animation: gradientAnimation 15s ease infinite;
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 }
 
-@keyframes gradientAnimation {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+h2 {
+    color: #444;
 }
